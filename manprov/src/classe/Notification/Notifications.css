@@ -1,0 +1,113 @@
+.Notifcationspace{
+    background: rgb(255, 255, 255);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 1rem;
+}
+.NotifSCont{
+    display: flex;
+}
+.NotifList{
+    display: flex;
+    justify-content: space-evenly;
+}
+.NotifTitle{
+    font-family: Raleway,Arial,sans-serif;
+    line-height: 1.4;
+    box-sizing: border-box;
+    letter-spacing: .1px;
+    margin-left: 10%;
+    color: #0F2133;
+}
+@media (max-width:800px){
+    .NotifList{
+        flex-direction: column;
+    }
+}
+@media (max-width:400px){
+    .NotifSCont{
+        flex-direction: column;
+    }
+}
+@media (max-width:350px){
+    .NotifSCont{
+        flex-direction: column;
+    }
+    div.menuNotif{
+        width: 100%;
+    }
+}
+.SelectNotif{
+    width: -webkit-fill-available;
+    background: #8cb8df96;
+    border-radius: 20px;
+    margin: 2%;
+}
+.btnNotifselct{
+    color: snow;
+    font-family: fantasy;
+    font-size: larger;
+    margin: 1%;
+}
+.btn.btnNotifselct:hover,.btn.btnNotifselct.selectedNotfR,.btn.btnNotifselct.selectedNotfT{
+    color: #445497;
+    border-radius: 20px;
+    background: #7b9cc5b3;
+}
+.notif{
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    padding: 1%;
+}
+.notif:hover{
+    background: #7b9cc5b3;
+    border-radius: 15px;
+}
+.menuNotif{
+    position: fixed;
+    width: 350px;
+    height: 500px;
+    padding: 2%;
+    overflow-y: scroll;
+    background: rgb(252, 252, 252);
+    border-radius: 1rem;
+    top: 80px;
+    right: 0px;
+}
+.menuNotifdown{
+    flex-direction: column;
+}
+.NotMore{
+    position: fixed;
+    right: 5px;
+    top: 90px;
+    background: #d6eded;
+    color: #7e98fd;
+    font-family: emoji;
+    padding: 4px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.NotMore:hover,.NotMore.active{
+    background: #7e98fd;
+    color: #d6eded;
+}
+.Read-Notif {
+    background-color: #d88d68;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.UnreadNotif{
+    background-color: #2c9dbf;
+    color: snow;
+    padding: 2px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-12px, -6px);
+    font-size: small;
+}
+.notiftext{
+    color:#2f1c2fc7;
+    font-size: 18px;
+}

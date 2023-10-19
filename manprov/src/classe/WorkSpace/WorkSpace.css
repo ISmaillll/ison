@@ -1,0 +1,722 @@
+
+.NavWSpace{
+    overflow: scroll;
+    width: 50px;
+    height: 100%;
+    background: #07253d;
+    position: fixed;
+    z-index: 19;
+    box-shadow: 0px 2px 7px 0px #00000075;
+    transition: 500ms;
+}
+.OpenminiMenu{
+  width: 200px;
+}
+.Navlist{
+    list-style:none;
+    margin-left: -2rem;
+}
+.NavWSpace::-webkit-scrollbar {
+  width: 0px;
+  height: 8px;
+}
+.NavWSpace::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius:5px;
+}
+.NavWSpace::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.linkWS{
+  color: #ffffff;
+  text-decoration: none;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding-left:10px;
+}
+.linkWS:hover{
+    color: aliceblue;
+    background: #2b3d656b;
+}
+.linkWS.active{
+  color: #ffffff;
+  font-family: emoji;
+  background: #0f3c60;
+}
+.OpenminiMenu span{
+    animation :opneMenuSW 1s forwards linear 1;
+}
+.linkWS span{
+  opacity: 0;
+  font-size: 0;
+}
+.NavWSLog{
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgProfileTopNav{
+  width: 30px;
+  height: 30px;
+  background: aliceblue;
+  border-radius: 50%;
+}
+.imgMenuProfile{
+  width: 50px;
+  height: 50px;
+}
+#ImageProfile{
+  min-height: 150px;
+}
+@keyframes opneMenuSW {
+    0%{
+      display: none;
+      font-size: 18px;
+    }
+    50% {
+      display: unset;
+      opacity: 0;
+      font-size: 18px;
+    }
+    100% { 
+      display: unset;
+      opacity: 1;
+      font-size: 18px;
+    }
+  }
+/*////////////////////// WS  */
+  .TopHome{
+    min-height: 600px;
+    background-image: url('../../PIC/f53b77fcae7f5c0fb20699d4075860a0fb66a099-6206x2974.webp');
+    background-size: cover;
+  }
+  .InTopHome{
+    float: left;
+  }
+  .WSsay{
+    font-size: 48px;
+    color: white;
+    font-weight: var(--bold);
+    padding-bottom: 18px;
+    max-width: 670px;
+  }
+  .subTextWS{
+    font-size: 29px;
+    text-align: center;
+    font-weight: var(--regular);
+    color: #fff9f9;
+    line-height: 1.4em;
+    margin: auto;
+  }
+  .TextWSGreen{
+    color: #a0faa0;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  input.SearchHome{
+    background: white!important;
+    color: #0f1b28!important;
+    border-radius: 5px 3px 3px 5px;
+  }
+  .Scroll-WS{
+    overflow: scroll;
+    margin-bottom: 7%;
+    padding: 1%;
+    background: #fafafabf;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .SearchList{
+    padding-top: 10px;
+    background: #0b1926;
+    width: 603px;
+    max-height: 300px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+    overflow: scroll;
+  }
+  @media (max-width:775px){
+    .SearchList{
+      width: 87%;
+      left: 1%;
+    }
+  }
+  .Search .btn{
+    color: white;
+    font-family: Raleway,Arial,sans-serif;
+    line-height: 1.4;
+    box-sizing: border-box;
+    font-size: x-large;
+  }
+  .WScontainer{
+    font-size: larger;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 3%;
+    border-radius: 20px;
+    border: solid 2px white;
+    background-image: url('../../PIC/Space.svg');
+    background-size: cover;
+  }
+  .OffersWS{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .histSearchs {
+    transform: translateY(-150px);
+  }
+  @media (max-width:775px){
+    .histSearchs {
+      transform: translateY(-100px);
+    }
+  }
+  @media (max-width:450px){
+    .histSearchs {
+      transform: translateY(-30px);
+    }
+  }
+  @media (max-width:360px){
+    .histSearchs {
+      transform: translateY(0px);
+    }
+  }
+  .StatWS{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 23rem));
+    grid-gap: 2rem 0.2rem;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .StatCountainer{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    width: 250px;
+  }
+  .StatTitle{
+    color: #ffffffde;
+    font-size: 19px;
+    font-family: monospace;
+  }
+  .StatNum{
+    font-size: 52px;
+  }
+  .Stattext{
+    font-size: 17px;
+    font-family: system-ui;
+    color: rgba(255, 255, 255, 0.829);
+  }
+  hr.lineStat{
+    content: "";
+    height: 5px;
+    width: 100%;
+    background: #76a6d7;
+    border-radius: 8px;
+    opacity: .3;
+  }
+  div.CatSpace{
+    background-image: url('../../PIC/SpaceCat.svg');
+  }
+/*//////////////// Project  */
+  .ProSW{
+    width: calc(100% - 60px);
+    float: right;
+    height: 100%;
+    min-height: 600px;
+  }
+  .CartPro {
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1); 
+    justify-content: flex-end;
+    background: rgb(31 50 68);
+    width: 300px;
+    height: 400px;
+    background-image: url('../../PIC/circle2.png');
+    background-size: cover;
+  }
+  .CountainSwiperProject{
+    width: 40%;
+    margin-inline: auto;
+    max-width: 350px;
+  }
+  .MyProjectspace{
+    display: flex;
+  }
+  .MyPEmpty{
+    max-width: 350px;
+  }
+  .MyProjectHome{
+    display: flex;
+    min-height: 200px;
+  }
+  @media (max-width:850px){
+    .MyProjectspace{
+      flex-direction: column;
+    }
+    .MyProjectHome{
+      flex-direction: column;
+    }
+    .CountainSwiperProject{
+      width: 80%;
+      margin-inline: auto;
+    }
+  }
+  .TopCartPro {
+    position: relative;
+    background-clip: border-box;
+    margin: 4%;
+    border-radius: 0.75rem;
+    background-color: #7b9cc5;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Manager-img {
+    background-color: #7b9cc5;
+    border-radius: 50%;
+    border: solid 2px #7b9cc5;
+    margin: 1%;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  .AlredyApply{
+    background: #7acf7a;
+    display: flex;
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 20px;
+    align-items: center;
+  }
+  .infoCartPro {
+    text-align: center;
+  }
+  .titleCartPro {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: x-large;
+  }
+  .minititleCartPro{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: larger;
+  }
+  .footerCartPro {
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .TitelCartJob{
+    text-align: center;
+    font-size: larger;
+  }
+  .CProdate {
+    font-size: .85rem;
+    font-family: monospace;
+    color: aliceblue;
+    border-radius:20px ;
+    padding: 2%;
+    width: -webkit-fill-available;
+    text-align: end;
+  }
+  .actionCartPro {
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #d88d68;
+    border-radius: 0.5rem;
+    width: fit-content;
+  }
+  .actionCartPro:hover {
+    color: #d88d68;
+    background-color: #fff;
+  }
+  .Projecdet{
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 600px;
+    min-height: 600px;
+    background: #1f3244;
+    color: #aeb7c3;
+    background-image: url('../../PIC/circle2.png');
+    background-size: cover;
+  }
+  .JobsProject{
+    background: #e1e5ea21;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .MYprojects{
+    display: flex;
+    width: max-content;
+    grid-gap: 1rem;
+    overflow: scroll;
+  }
+  .linePro{
+    color: azure;
+    opacity: 90;
+  }
+  @media (max-width:620px){
+    .Projecdet{
+      width: 100%;
+    }
+  }
+  .ListSkills{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem 0;
+    position: relative;
+    overflow: scroll;
+    margin: auto;
+  }
+
+  .deleteSkillBttn{
+    transform: translate(17px, -13px);
+  }
+  /*///////////////////// Jobs */
+  .JobsSpace{
+    display: flex;
+    padding: 1%;
+  }
+  @media (max-width:1250px){
+    .JobsSpace{
+      flex-direction: column;
+    }
+  }
+  .bareRecJob{
+    color: #fff;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 1;
+  }
+  .Jobs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 25rem));
+    grid-gap: 1rem 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+  @media (min-width:1250px){
+    .Jobs{
+      overflow: scroll;
+      max-height: 600px;
+    }
+  }
+  .CartJob{
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -2px rgba(0,0,0,.1);
+    width: 25rem;
+    min-height: 200px;
+    justify-content: space-between;
+    border: solid 1px #275283;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #010101;
+    background: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: inherit;
+  }
+  .CartJob:hover,.CartJob.active{
+    color: rgb(0, 0, 0);
+    outline: solid 3px #275283;
+    scale: 0.97;
+  }
+  .ContantCartJob{
+    color: #555c64;
+    font-size: 16px;
+  }
+  div.CartProSkills {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    background: #51637f63;
+  }
+  .JobCartJob{
+    font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    color: inherit!important;
+    font-size: 22px;
+    line-height: 1.5rem;
+  }
+  .PaymentCartJob {
+    font-size: .875rem!important;
+    line-height: 1.43rem!important;
+    background: #f0f3f3;
+    width: fit-content;
+    padding: 1px;
+    padding-right: 7px;
+  }
+  .skillsJobCart{
+    font-family: system-ui;
+  }
+  .DatejobCrat{
+    color: #3976b3;
+    font-family: inherit;
+  }
+/*//////////////////*/
+.formNewProject{
+  background: #f4f4f9;
+  padding: 4%;
+  background-image: url(https://www.superside.com/_next/static/f9975f82f038206c.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.TopNewProject{
+  background-image: url('../../PIC/planet.png');
+  background-size:contain;
+  background-repeat:no-repeat ;
+}
+.NewProjectJob{
+  background: #0e1b2cde;
+  border-radius: 20px;
+  padding: 1%;
+  margin-bottom: 10px;
+}
+.seletePNgrp{
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 2%;
+  margin: 1%;
+  min-height: 200px;
+}
+.formProject{
+  background: #0f1b28;
+  background-image: url('../../PIC/circle1.png');
+  background-size:cover;
+  background-repeat:no-repeat ;
+  margin: 1%;
+  width: 90%;
+  float: right;
+  padding: 4%;
+  border-radius: 1rem;
+}
+.TitelNewP,.TitleNewProject{
+  text-align: center;
+  color: #0f2133;
+  font-family: Raleway,Arial,sans-serif;
+  line-height: 1.4;
+  box-sizing: border-box;
+  font-weight: 800;
+  text-shadow: 2px 3px #bebcbc;
+}
+.TitelElNewP{
+  text-align: center;
+  color: #0f2133;
+  font-family: Raleway,Arial,sans-serif;
+  line-height: 1.4;
+  box-sizing: border-box;
+  font-weight: 800;
+  text-shadow: 2px 3px #ffffff;
+}
+.buttoneff{
+  color: white;
+  background: #b39b8d;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 5px;
+  width: 30px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tagsdeletebtn{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #dee6eb;
+  color: #0f2133;
+}
+.Linksdeletebtn{
+  background: #dee6eb;
+  color: #0f2133;
+  margin-top: 40px;
+}
+.imgdeletebtn{
+  background: #dee6eb;
+  color: #0f2133;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.NuminfoP{
+  color: white;
+  background: #0f2133;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 5px;
+}
+.subtitleP{
+  background-image: linear-gradient(268deg, #c5f9d8 10%, #b8cae4 90%);
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #0f2133;
+  width: fit-content;
+  margin: auto;
+  overflow: hidden;
+  filter: blur(0.6px);
+}
+@media (max-width:900px){
+  .TopNewProject{
+    background-size:cover;
+  }
+}
+.grouPNinput{
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputNew {
+  font-family: 'Segoe UI', sans-serif;
+  margin: auto;
+  margin-top: 2rem;
+  max-width: 600px;
+  position: relative;
+}
+.inputNew input ,.inputNew select ,.inputNew textarea{
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+  background: #fafafa;
+}
+.inputNew textarea{
+  min-height: 100px;
+}
+.inputNew label {
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  padding: 0.7em;
+  margin-left: 0.6em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(100, 100, 100);
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+.inputNew :is(input:focus, input:valid)~label,.inputNew :is(select:focus, select:valid)~label,.inputNew :is(textarea:focus, textarea:valid)~label {
+  transform: translateY(-70%) scale(.9);
+}
+.inputNew :is(input:focus, input:valid),.inputNew :is(select:focus, select:valid),.inputNew :is(textarea:focus, textarea:valid) {
+  border-color: rgb(150, 150, 200);
+}
+.tallInput{
+  width: 50%;
+}
+.JObtaken{
+  font-family: inherit;
+  font-size: larger;
+  width: -webkit-fill-available;
+  margin: 3%;
+  color: #3c4344;
+}
+.SelectedJob{
+  border-radius: 20px;
+  background: #396da161;
+  padding: 1%;
+}
+div.PostImg {
+  text-align: center;
+}
+
+.Taginput{
+  display: flex;
+  flex-wrap: wrap;;
+}
+.inputNew select {
+  width: 200px;
+}
+.PostLogo{
+  display: flex;
+  flex-direction: column;
+  background: #e5eaff;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 2rem;
+  max-width: 600px;
+  position: relative;
+  padding-top: 25px;
+}
+img#ImagePostl {
+  background: #150047;
+  border: none;
+}
+.custom-logo-upload {
+  background: #4f4fc8c2;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  transform: translate(0px, -40px);
+  color: white;
+}
+.titleinput{
+  width: 300px;
+}
+.optionselected{
+  background: #3ba0c2;
+  color: white;
+}
+.selectvalue {
+  color: #3ba0b2;
+  font-family: inherit;
+  font-size: larger;
+  font-weight: 600;
+}
+.commentinfoP{
+  text-align: center;
+  color: #07253d;
+  padding: 2%;
+}
+@media (max-width:550px){
+  .tallInput{
+    width: 90%;
+  }
+  .titleinput{
+    width: 100%;
+  }
+}
+.btnMiniMenu{
+  display: none;
+}
+@media (max-width:775px){
+  .NavWSpace{
+    width: 250px;
+  }
+  .Menuitem{
+    text-align: center;
+  }
+  .CloseminiMenu{
+    animation :close 500ms forwards linear 1;
+  }
+  .OpenminiMenu{
+    animation: open 500ms forwards linear 1;
+  }
+  .opneMenuSW{
+    animation :opneMenuSW 500ms forwards linear 1;
+  }
+  .closeMenuSW{
+    animation :closeMenuSW 500ms forwards linear 1;
+    display: inline;
+  }
+  .ProSW{
+    width: 99%;
+  }
+  .formNewProject{
+    width: 99%;
+  }
+}
