@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d065344.css",
+    "main.js": "/static/js/main.e722258c.js",
+    "static/js/787.8fd088a1.chunk.js": "/static/js/787.8fd088a1.chunk.js",
+    "static/media/fb66a099-6206x2974.webp": "/static/media/f53b77fcae7f5c0fb20699d4075860a0fb66a099-6206x2974.9526c8a4f3f830121421.webp",
+    "static/media/SpaceCat.svg": "/static/media/SpaceCat.c0b3eed1f62864665f1a.svg",
+    "static/media/Space.svg": "/static/media/Space.0663481445e98e0e78b0.svg",
+    "static/media/back3.jpeg": "/static/media/back3.7479b0ed9f7889dea37a.jpeg",
+    "static/media/circle1.png": "/static/media/circle1.caae9a1b55cf2f5fe177.png",
+    "static/media/planet.png": "/static/media/planet.58c9627fc0e01d3776f3.png",
+    "static/media/circle2.png": "/static/media/circle2.84c7e17087e1f640dc86.png",
+    "static/media/backwavegray.svg": "/static/media/backwavegray.e3223d02e774951b1928.svg",
+    "index.html": "/index.html",
+    "main.8d065344.css.map": "/static/css/main.8d065344.css.map",
+    "main.e722258c.js.map": "/static/js/main.e722258c.js.map",
+    "787.8fd088a1.chunk.js.map": "/static/js/787.8fd088a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d065344.css",
+    "static/js/main.e722258c.js"
+  ]
+}
