@@ -1,0 +1,205 @@
+id,Profession,Rating,Nbr_Rating
+1,Full Stack Developer,3.72473021657792,132
+2,Mobile Developer,2.98994037767121,224
+3,Data Scientist,4.617963184619,261
+4,Frontend Developer,4.75818395061753,374
+5,Backend Developer,2.58917660048509,445
+6,Software Engineer,2.12460903372995,366
+7,Web Developer,3.34216038247756,356
+8,Game Developer,3.74858067031959,29
+9,DevOps Engineer,4.07546291148455,396
+10,UI/UX Designer,2.81342138631746,147
+11,Machine Learning Engineer,2.58427960817203,230
+12,Software Developer,3.54011620012327,326
+13,AI Engineer,3.46983151237259,95
+14,Cybersecurity Engineer,4.77481564281487,287
+15,Network Engineer,3.33729348959754,484
+16,Cloud Engineer,2.18195276446335,31
+17,Embedded Systems Engineer,3.35228287793132,458
+18,Database Administrator,4.69626312128159,372
+19,Quality Assurance Engineer,2.00111043874211,139
+20,Artificial Intelligence Architect,2.15471867603243,357
+21,Enterprise Architect,2.22696841032311,145
+22,Product Manager,4.02467008219712,174
+23,Systems Analyst,3.92948308801556,483
+24,Technical Writer,3.96776643566529,468
+25,IT Consultant,4.46268922567306,395
+26,IT Support Technician,2.00541317720796,43
+27,Information Security Analyst,2.60935236525599,283
+28,Network Administrator,4.08991287832204,430
+29,Project Manager,4.28683538734722,24
+30,Software Development Manager,3.22889035075875,284
+31,Computer Systems Analyst,3.51341499735192,289
+32,IT Manager,3.51144157533869,303
+33,Software Quality Assurance Analyst,3.65059786955411,308
+34,Webmaster,4.94084056846962,300
+35,Technical Support Engineer,4.87032698721765,278
+36,Technical Account Manager,4.09544491370435,37
+37,Technical Project Manager,4.67496403695117,360
+38,Technical Recruiter,2.91366394911887,87
+39,UI/UX Architect,3.78542430343182,146
+40,Web Content Manager,3.35447199552968,479
+41,Software Engineer,2.32347401826305,129
+42,Game Developer,3.83123708388198,260
+43,Data Analyst,3.20567681627866,269
+44,Web Developer,4.10106142491864,308
+45,Mobile App Developer,2.22208007063536,239
+46,UI/UX Designer,2.17483102599104,456
+47,Backend Developer,4.02519648670241,28
+48,Frontend Developer,2.24016467011023,352
+49,DevOps Engineer,2.97234945180077,121
+50,Database Administrator,4.59887540499434,490
+51,Security Engineer,3.6282929485747,467
+52,Machine Learning Engineer,3.36880025136606,70
+53,Network Administrator,2.8438251873508,442
+54,Technical Writer,3.32934314762461,310
+55,Quality Assurance Engineer,4.40310236583135,97
+56,Full Stack Developer,2.6259569807677,433
+57,Product Manager,2.49871343935181,65
+58,Cloud Engineer,2.66365893310934,322
+59,Embedded Systems Engineer,3.40173549214597,247
+60,Artificial Intelligence Engineer,2.85417522928515,177
+61,IT Support Specialist,3.71138942870915,401
+62,Cybersecurity Analyst,3.15246294186528,409
+63,IT Project Manager,3.05870580864118,98
+64,Systems Administrator,2.45008376606846,140
+65,Network Architect,4.75360230454071,154
+66,Technical Recruiter,4.9662052876528,445
+67,Database Developer,4.62797321933518,431
+68,Software Tester,4.65226372595657,368
+69,IT Consultant,3.74081073099081,486
+70,IT Trainer,4.19377191175895,400
+71,IT Auditor,4.29411059670987,78
+72,IT Sales Specialist,4.45018620938874,459
+73,Computer Systems Analyst,4.44185184547997,76
+74,IT Manager,3.66936184652027,354
+75,Information Security Manager,3.00395928865592,372
+76,IT Architect,2.95812751023557,243
+77,Cloud Architect,4.25175611486235,275
+78,IT Operations Manager,3.74647550055312,456
+79,IT Service Desk Manager,4.89999111177728,260
+80,Technical Support Engineer,2.0445385163812,55
+81,Desktop Support Technician,3.96562988234858,473
+82,Mobile Application Tester,3.43465914465354,56
+83,Data Scientist,2.44163927810796,96
+84,IT Trainer and Consultant,4.77633479442649,245
+85,Cloud Solutions Architect,4.07156395914078,272
+86,Information Technology Specialist,2.05076006749573,437
+87,Information Technology Director,2.05989773344036,287
+88,Software Architect,3.88519166017942,445
+89,Software Project Manager,2.15446298362457,79
+90,Information Technology Manager,2.23321977255732,413
+91,Information Security Analyst,3.29302698125702,219
+92,Computer Network Architect,2.81514577536993,295
+93,Technical Account Manager,2.2485289279922,417
+94,Technical Solutions Architect,3.73258366124516,243
+95,Application Support Analyst,4.39353312806695,330
+96,Data Center Manager,2.17473168077974,347
+97,Database Administrator Manager,4.53465393841407,394
+98,Network and Computer Systems Administrator,4.82308477684189,296
+99,Technical Services Manager,4.73548335826571,435
+100,Information Technology Consultant,3.18129592003236,437
+101,Software Implementation Consultant,2.01684818504243,353
+102,Web Content Manager,2.38142361004605,49
+103,Full Stack Developer,3.98260245515814,107
+104,Mobile Developer,4.56433731917122,200
+105,Data Scientist,4.59468475383159,497
+106,Frontend Developer,2.87200991355668,153
+107,Backend Developer,4.69701337003237,230
+108,Software Engineer,2.98194994203411,214
+109,Web Developer,2.68630229748195,426
+110,Game Developer,2.04562103874405,146
+111,DevOps Engineer,3.54215432264516,142
+112,UI/UX Designer,4.28734571258833,193
+113,Machine Learning Engineer,4.35965980528421,133
+114,Software Developer,3.40483615243823,297
+115,AI Engineer,2.57679578845021,217
+116,Cybersecurity Engineer,4.14855665197257,294
+117,Network Engineer,3.6962581025922,170
+118,Cloud Engineer,2.72184600730598,300
+119,Embedded Systems Engineer,2.81258911314972,285
+120,Database Administrator,4.72032687017309,88
+121,Quality Assurance Engineer,4.73388496331236,102
+122,Artificial Intelligence Architect,3.72039164304373,170
+123,Enterprise Architect,3.00506810331794,366
+124,Product Manager,2.29518282199381,342
+125,Systems Analyst,3.04374663124505,49
+126,Technical Writer,2.52881780507921,289
+127,IT Consultant,2.15490681563443,165
+128,IT Support Technician,4.72605477500259,403
+129,Information Security Analyst,3.69638115937526,482
+130,Network Administrator,4.50477326706294,209
+131,Project Manager,3.69859125068632,323
+132,Software Development Manager,2.20358310021466,425
+133,Computer Systems Analyst,3.78199506432024,238
+134,IT Manager,4.95256711534843,403
+135,Software Quality Assurance Analyst,3.14203176707325,273
+136,Webmaster,2.07099493448608,150
+137,Technical Support Engineer,4.18916816612757,381
+138,Technical Account Manager,3.94300565006925,362
+139,Technical Project Manager,2.93159269643238,66
+140,Technical Recruiter,3.49501262029874,115
+141,UI/UX Architect,4.25511378555408,133
+142,Web Content Manager,4.37049354704691,97
+143,Software Engineer,4.36196222978554,369
+144,Game Developer,2.71362724120197,164
+145,Data Analyst,4.34103207427256,285
+146,Web Developer,4.14495649701002,488
+147,Mobile App Developer,3.68480908800855,84
+148,UI/UX Designer,3.4914192041742,112
+149,Backend Developer,3.00121818268727,415
+150,Frontend Developer,2.25097955036128,62
+151,DevOps Engineer,3.07600892458602,32
+152,Database Administrator,2.77273106946993,93
+153,Security Engineer,4.01161320371702,152
+154,Machine Learning Engineer,4.32953088320778,281
+155,Network Administrator,2.55595521887433,330
+156,Technical Writer,2.6355464133484,26
+157,Quality Assurance Engineer,4.72482804294729,243
+158,Full Stack Developer,2.64411876116151,454
+159,Product Manager,3.68748443412608,239
+160,Cloud Engineer,2.78177413675314,331
+161,Embedded Systems Engineer,3.77497863604661,286
+162,Artificial Intelligence Engineer,2.64899407219579,492
+163,IT Support Specialist,2.59636488973461,433
+164,Cybersecurity Analyst,3.43647238095343,103
+165,IT Project Manager,3.63409334391187,35
+166,Systems Administrator,2.48969280940443,98
+167,Network Architect,3.96184879531874,25
+168,Technical Recruiter,4.07729026561672,34
+169,Database Developer,4.99455645007584,102
+170,Software Tester,2.36406331060451,261
+171,IT Consultant,3.51957297436817,15
+172,IT Trainer,4.78049062028907,56
+173,IT Auditor,4.23854496386908,223
+174,IT Sales Specialist,2.97382782318339,273
+175,Computer Systems Analyst,4.66559522606959,186
+176,IT Manager,3.73181827580228,479
+177,Information Security Manager,4.57513826503511,101
+178,IT Architect,4.94343564791221,269
+179,Cloud Architect,3.11934435818881,365
+180,IT Operations Manager,2.3724354736495,48
+181,IT Service Desk Manager,3.09870537550223,136
+182,Technical Support Engineer,3.52713985967184,447
+183,Desktop Support Technician,3.06826438118725,163
+184,Mobile Application Tester,3.46133987256417,354
+185,Data Scientist,3.68475504482807,101
+186,IT Trainer and Consultant,3.89425688972293,32
+187,Cloud Solutions Architect,2.77417834655171,296
+188,Information Technology Specialist,4.02787301245792,13
+189,Information Technology Director,3.43497782398645,425
+190,Software Architect,3.9177637409073,433
+191,Software Project Manager,4.6052038958761,139
+192,Information Technology Manager,4.91337819896005,114
+193,Information Security Analyst,2.11088361158001,201
+194,Computer Network Architect,3.99037404211162,117
+195,Technical Account Manager,4.36100867716558,335
+196,Technical Solutions Architect,2.66912129004277,456
+197,Application Support Analyst,2.22465530357749,401
+198,Data Center Manager,2.72439466916981,160
+199,Database Administrator Manager,2.14046109519038,352
+200,Network and Computer Systems Administrator,4.1433761519616,102
+201,Technical Services Manager,4.12252739923058,433
+202,Information Technology Consultant,3.39732001561569,227
+203,Software Implementation Consultant,4.74320332225575,55
+204,Web Content Manager,2.52579657880645,73
